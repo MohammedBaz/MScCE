@@ -1,27 +1,3 @@
-Of course. You want a simpler solution: a single Streamlit app that contains the survey questions and collects the answers. This is a much more direct approach.
-
-Here is the complete code for a Streamlit app that does exactly that.
-
-### \#\# How to Use This Solution
-
-1.  **Save the Code:** Save the code below as a Python file (e.g., `survey_app.py`).
-2.  **Install Libraries:** If you haven't already, open your terminal and install Streamlit and Pandas:
-    ```bash
-    pip install streamlit pandas
-    ```
-3.  **Run the App:** In your terminal, navigate to where you saved the file and run:
-    ```bash
-    streamlit run survey_app.py
-    ```
-
-Your web browser will open with the interactive survey app.
-
------
-
-### \#\# Streamlit Survey App Code
-
-```python
-# survey_app.py
 import streamlit as st
 import pandas as pd
 
